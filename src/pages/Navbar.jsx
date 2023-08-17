@@ -16,68 +16,74 @@ const Navbar = () => {
     setBtnActive(!isbtnActive);
   };
 
-  // const handleNavClick = (index) => {
-  //   setBtnClick(index);
-  //   localStorage.setItem("activeIndex", index);
-  // };
-
-  // useEffect(() => {
-  //   const storedValue = localStorage.getItem("activeIndex");
-  //   setBtnClick(storedValue);
-  // }, [isBtnClick]);
-
   return (
-    <>
       <div className="nav-container">
         <div className="logo">
           <HashLink to="/#home_page" className="nav__logo">
             <img src={nav_logo} alt="logo" />
           </HashLink>
         </div>
-        <div className={isActive ? 'active_links  ' : 'links'}>
-          <div className="MenuItems ">
+        <div className={isActive ? 'active_links' : 'links'}>
+          <div className="MenuItems">
             {my_navbar_data.map((data, index) => {
               return (
-                <Link
-                  className={isBtnClick === index ? 'active_navbtn' : 'navbtn'}
-                  key={index}
-                  to={data.nav_link}
-                  onClick={() => {
-                    if (data.another_page === true)
-                      window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-
-                    setActive(false);
-                    setBtnActive(false);
-                    setBtnClick(index);
-                  }}
-                >
-                  <span
-                    style={{
-                      height: '39px',
-                      alignItems: 'center',
-                      paddingBottom: '1px',
-                    }}
-                  >
-                    <data.nav__icon />
-                  </span>
-                  {data.navbar_name}
-                </Link>
+                  <React.Fragment key={index}>
+                    {data.another_page ? (
+                        <Link
+                            className={isBtnClick === index ? 'active_navbtn' : 'navbtn'}
+                            to={data.nav_link}
+                            onClick={() => {
+                              setBtnClick(index);
+                            }}
+                        >
+                    <span
+                        style={{
+                          height: '39px',
+                          alignItems: 'center',
+                          paddingBottom: '1px',
+                        }}
+                    >
+                      <data.nav__icon />
+                    </span>
+                          {data.navbar_name}
+                        </Link>
+                    ) : (
+                        <HashLink
+                            className={isBtnClick === index ? 'active_navbtn' : 'navbtn'}
+                            to={data.nav_link}
+                            onClick={() => {
+                              window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+                              setBtnClick(index);
+                            }}
+                        >
+                    <span
+                        style={{
+                          height: '39px',
+                          alignItems: 'center',
+                          paddingBottom: '1px',
+                        }}
+                    >
+                      <data.nav__icon />
+                    </span>
+                          {data.navbar_name}
+                        </HashLink>
+                    )}
+                  </React.Fragment>
               );
             })}
           </div>
         </div>
         <div className="toggle_menu_icons" onClick={handleClick}>
           <i
-            className={isActive ? 'fas fa-times' : 'fas fa-bars-staggered'}
-            style={{
-              fontSize: '21px',
-              fontWeight: '600',
-              color: '#fff',
-            }}
+              className={isActive ? 'fas fa-times' : 'fas fa-bars-staggered'}
+              style={{
+                fontSize: '21px',
+                fontWeight: '600',
+                color: '#fff',
+              }}
           ></i>
         </div>
       </div>
-    </>
   );
 };
 
