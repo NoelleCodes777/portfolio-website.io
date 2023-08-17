@@ -37,8 +37,7 @@ function Education() {
         <div className="educ_div_section">
           {my_education_data.map((data, index) => {
             return (
-              <>
-                <div className="educ_upper_section" key={index}>
+              <div className="educ_upper_section" key={index}>
                   <div className="educ_container_one">
                     <img src={dyp_college_img} alt="educ_image" />
                   </div>
@@ -76,7 +75,6 @@ function Education() {
                     </div>
                   </div>
                 </div>
-              </>
             );
           })}
         </div>
