@@ -2,6 +2,7 @@ import React from "react";
 import "./Education.css";
 import dyp_college_img from "../../Image/dyp_college_img.jpg";
 import college_logo from "../../Image/college_logo.png";
+
 function Education() {
   const my_education_data = [
     {

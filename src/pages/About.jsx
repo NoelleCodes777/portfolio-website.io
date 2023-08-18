@@ -1,7 +1,8 @@
-  import React, {Fragment} from "react";
+import React, {Fragment} from "react";
 import about_me_img from "../Image/about_me_img.png";
 import personal_info_data from "./assets/AboutIn";
 import "./About.css";
+
 function About() {
   return (
     <section className="about_me" id="about_myself">

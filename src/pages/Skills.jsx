@@ -1,6 +1,7 @@
 import React from 'react';
 import SData from './assets/ApplicationData';
 import './Skills.css';
+
 function Skills() {
   const my_skill_description = [
     {
