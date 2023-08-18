@@ -4,12 +4,10 @@ import Education from "./components/Education";
 import "./EducationCert.css";
 const EducationCert = () => {
   return (
-    <>
-      <div className="educ_cert" id="my-background">
+      <div className="educ_cert" id="education_and_certifications">
         <Education />
         <Certificates />
       </div>
-    </>
   );
 };
 

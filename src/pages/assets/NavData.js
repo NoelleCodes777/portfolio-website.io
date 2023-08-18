@@ -20,17 +20,15 @@ const my_navbar_data = [
   },
   {
     index: 3,
-    nav_link: `/tech/skill`,
+    nav_link: `#my_skill`,
     navbar_name: 'Skills',
     nav__icon: RiCodeSSlashLine,
-    another_page: true,
   },
   {
     index: 4,
-    nav_link: '/education_and_certifications/my-background',
+    nav_link: '#education_and_certifications',
     navbar_name: 'Education and Certifications',
     nav__icon: AiOutlineSafetyCertificate,
-    another_page: true,
   },
   {
     index: 5,

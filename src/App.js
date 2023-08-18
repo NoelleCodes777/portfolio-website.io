@@ -12,8 +12,6 @@ const App = () => {
         <Navbar />
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/education_and_certifications/my-background" element={<EducationCert />} />
-            <Route path="/tech/skill" element={<Skills />} />
             <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
