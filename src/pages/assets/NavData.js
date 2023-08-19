@@ -38,7 +38,7 @@ const my_navbar_data = [
   },
   {
     index: 6,
-    nav_link: `/contact_page`,
+    nav_link: `#contact_page`,
     navbar_name: 'Contact Me',
     nav__icon: BiConversation,
   },
