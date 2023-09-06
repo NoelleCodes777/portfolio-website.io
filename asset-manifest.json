@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio-website.io/static/css/main.336f7d3c.css",
+    "main.js": "/portfolio-website.io/static/js/main.1b9c7a56.js",
+    "static/media/proj_img.png": "/portfolio-website.io/static/media/proj_img.4a822ec78b9fbf22342c.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio-website.io/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/portfolio-website.io/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio-website.io/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio-website.io/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/dyp_college_img.jpg": "/portfolio-website.io/static/media/dyp_college_img.d30f689cb5a83e6b00bb.jpg",
+    "static/media/metacrypto_img.png": "/portfolio-website.io/static/media/metacrypto_img.b29806de0fbfb1971363.png",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio-website.io/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/contact_me_img.png": "/portfolio-website.io/static/media/contact_me_img.946e4c67a0f4f68da9f2.png",
+    "static/media/about_me_img.png": "/portfolio-website.io/static/media/about_me_img.5a41b5e8a24955786f31.png",
+    "static/media/profile_img.jpg": "/portfolio-website.io/static/media/profile_img.de3f9e839a9b9ba5b46c.jpg",
+    "static/media/todo_img.jpg": "/portfolio-website.io/static/media/todo_img.bb51c676b43311e86d37.jpg",
+    "static/media/weather_img.jpg": "/portfolio-website.io/static/media/weather_img.aa4b17b6fa1d157ed5cf.jpg",
+    "static/media/calci_img.jpg": "/portfolio-website.io/static/media/calci_img.f23917665235c5c5d1ae.jpg",
+    "static/media/nav_logo.png": "/portfolio-website.io/static/media/nav_logo.8ceea96bb43fb20b5f5f.png",
+    "static/media/banking_img.jpg": "/portfolio-website.io/static/media/banking_img.67b0b0efb5969e43091a.jpg",
+    "static/media/college_logo.png": "/portfolio-website.io/static/media/college_logo.0a99637b61583fe825f0.png",
+    "static/media/quotes_img.jpg": "/portfolio-website.io/static/media/quotes_img.92137a96e08775fbf297.jpg",
+    "static/media/resct_logo.png": "/portfolio-website.io/static/media/resct_logo.0c66c79ce81db9c5fbb0.png",
+    "static/media/linked_img.png": "/portfolio-website.io/static/media/linked_img.6febfbccfa4d04e66a7a.png",
+    "index.html": "/portfolio-website.io/index.html",
+    "static/media/vercel.svg": "/portfolio-website.io/static/media/vercel.8e4e6f566b4c150986bf3e6e3dd80a14.svg",
+    "main.336f7d3c.css.map": "/portfolio-website.io/static/css/main.336f7d3c.css.map",
+    "main.1b9c7a56.js.map": "/portfolio-website.io/static/js/main.1b9c7a56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.336f7d3c.css",
+    "static/js/main.1b9c7a56.js"
+  ]
+}
