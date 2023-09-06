@@ -2,7 +2,6 @@ import React from "react";
 import "./Education.css";
 import dyp_college_img from "../../Image/dyp_college_img.jpg";
 import college_logo from "../../Image/college_logo.png";
-
 function Education() {
   const my_education_data = [
     {
@@ -38,7 +37,8 @@ function Education() {
         <div className="educ_div_section">
           {my_education_data.map((data, index) => {
             return (
-              <div className="educ_upper_section" key={index}>
+              <>
+                <div className="educ_upper_section" key={index}>
                   <div className="educ_container_one">
                     <img src={dyp_college_img} alt="educ_image" />
                   </div>
@@ -76,6 +76,7 @@ function Education() {
                     </div>
                   </div>
                 </div>
+              </>
             );
           })}
         </div>

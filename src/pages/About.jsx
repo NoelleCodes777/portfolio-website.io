@@ -1,8 +1,7 @@
-import React, {Fragment} from "react";
+  import React from "react";
 import about_me_img from "../Image/about_me_img.png";
 import personal_info_data from "./assets/AboutIn";
 import "./About.css";
-
 function About() {
   return (
     <section className="about_me" id="about_myself">
@@ -27,7 +26,7 @@ function About() {
           <div className="personal_info">
             {personal_info_data.map((data, index) => {
               return (
-                <Fragment key={index}>
+                <>
                   <div className="abc" key={index}>
                     {data.section_one.map((e, index) => {
                       return (
@@ -40,13 +39,13 @@ function About() {
                   <div className="xyz">
                     {data.section_two.map((e, index) => {
                       return (
-                        <h4 key={index}>
+                        <h4>
                           <span>{e.data_type} :</span> {e.data_value}
                         </h4>
                       );
                     })}
                   </div>
-                </Fragment>
+                </>
               );
             })}
           </div>
