@@ -49,12 +49,10 @@ const BottomNav = () => {
             <div className="bot_nav">
               {my_navbar_data.map((data, index) => {
                 return (
-                  <>
-                    <HashLink key={index} to={data.nav_link}>
-                      <i className="fa-solid fa-angles-right"></i>
-                      <p> {data.navbar_name}</p>
-                    </HashLink>
-                  </>
+                  <HashLink key={index} to={data.nav_link}>
+                    <i className="fa-solid fa-angles-right"></i>
+                    <p> {data.navbar_name}</p>
+                  </HashLink>
                 );
               })}
             </div>

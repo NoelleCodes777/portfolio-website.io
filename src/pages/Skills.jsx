@@ -1,6 +1,7 @@
 import React from 'react';
 import SData from './assets/ApplicationData';
 import './Skills.css';
+
 function Skills() {
   const my_skill_description = [
     {
@@ -17,8 +18,8 @@ function Skills() {
     },
   ];
   return (
-    <>
-      <section id="my_skill">
+
+    <section id="my_skill">
         <div className="my_skills">
           <h2>
             My Skills <span>&</span> Abilities
@@ -57,7 +58,6 @@ function Skills() {
           </div>
         </div>
       </section>
-    </>
   );
 }
 
